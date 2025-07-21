@@ -235,12 +235,23 @@ SELECT AVG(total) AS promedio_total, MAX(total) AS venta_mayor FROM ventas;
 
 ## 🧠 Tips SQL para entrevistas y práctica
 
-* Siempre revisa las claves primarias y foráneas antes de hacer JOIN
-* Usa `IS NULL` en lugar de `= NULL`
-* Prueba tus transacciones con `ROLLBACK` en desarrollo
-* Identifica cuándo una subconsulta es más clara que un JOIN
-* Usa alias (`AS`) para mejorar la legibilidad
+* Siempre revisar las claves primarias y foráneas antes de hacer JOIN
+* Usar `IS NULL` en lugar de `= NULL`
+* Probar las transacciones con `ROLLBACK` en desarrollo
+* Identificar cuándo una subconsulta es más clara que un JOIN
+* Usar alias (`AS`) para mejorar la legibilidad
 
 ---
+---
+
+## 🧮 Diagrama Entidad-Relación
+
+Este diagrama representa la estructura lógica de la base de datos usada en las prácticas:
+
+- **productos**: catálogo de productos.
+- **clientes**: información básica del cliente.
+- **ventas**: tabla de hechos con relaciones a productos y clientes.
+
+![Diagrama entidad-relación](./diagrama_ventas_sqlserver_bi.png)
 
 ¡Proyecto 100% funcional y validado en SQL Server Management Studio! 🚀
