@@ -6,7 +6,7 @@
 
 ---
 
-## 📘 AJUSTE FINAL DEL CRONOGRAMA – 7 DÍAS TOTALES
+## 📘 CRONOGRAMA – SQL EN 7 DÍAS 
 
 | Día | Temas principales                                    |
 | --- | ---------------------------------------------------- |
